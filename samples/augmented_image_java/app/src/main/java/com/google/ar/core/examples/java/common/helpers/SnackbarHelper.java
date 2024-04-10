@@ -28,7 +28,8 @@ import com.google.android.material.snackbar.Snackbar;
 public final class SnackbarHelper {
   private static final int BACKGROUND_COLOR = 0xbf323232;
   private Snackbar messageSnackbar;
-  private enum DismissBehavior { HIDE, SHOW, FINISH };
+  private enum DismissBehavior { HIDE, SHOW, FINISH }
+
   private int maxLines = 2;
   private String lastMessage = "";
   private View snackbarView;
